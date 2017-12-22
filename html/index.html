@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="../js/caculator.js"></script>
+	<script type="text/javascript" src="../js/common.js"></script>
+</head>
+<body>
+	<h1>간단한 계산기 만들기</h1>
+	<div class="wrapper" style="width:80%; height:850px; margin: auto" >
+		<div class="inputLayout" style="width:100%; height:50%;" >
+			<input type="text" id="numberInput1"/>
+			<select id="caculatorBox">
+			 	<option value="1">+</option>
+				<option value="2">-</option>
+				<option value="3">*</option>
+				<option value="4">/</option>
+			</select>
+			<input type="text" id="numberInput2"/>
+			<button onclick="calculation();">계산</button>
+		</div>
+		<div class="outputLayout" style="width:100%; height:50%; background-color:gray;" >
+			<p style="font-size: 35px" id="result"> </p>
+	    </div>
+	</div>
+	
+
+</body>
+</html>
